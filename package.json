@@ -1,0 +1,17 @@
+{
+  "name": "website-chatbot",
+  "version": "1.0.0",
+  "description": "A custom AI chatbot backend + embeddable widget for your website, powered by the Gemini API.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
